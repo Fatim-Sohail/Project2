@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="AandS.asm" />
+    <MASM Include="AddSubTest.asm" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -101,6 +101,7 @@
     </Link>
     <MASM>
       <IncludePaths>C:\Irvine</IncludePaths>
+      <AssembledCodeListingFile>$(InputName).lst</AssembledCodeListingFile>
     </MASM>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

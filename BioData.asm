@@ -43,7 +43,6 @@ main PROC
 	mov edx, offset string6
 	call WriteString
 	call CRLF
-	call readint
 	exit
 main ENDP
 END main
